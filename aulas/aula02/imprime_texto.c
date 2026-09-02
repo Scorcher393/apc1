@@ -16,7 +16,7 @@ int main() {
     printf("Caneta        1     1,00    1,00\n");
     printf("Borracha      1     5,00    5,00\n");
     printf("Lapis         2     2,50    5,00\n");
-    // printf("%s",        "%i",  "%.2f"   "%.2f", "Caderno", 2, 10.55, 21.10);
+    // printf("%s", "%8i", "%2.2f", "%3.2f", "Caderno", 2, 10.55, 21.10);
     printf("--------------------------------\n");
     printf("TOTAL: R$ 11,00\n");
     printf("--------------------------------\n"); "%s", "%i", "%.2f"
