@@ -15,8 +15,8 @@ int main() {
     printf("Camiseta     2     39,99\n");
     printf("Calca        1     89,90\n");
     printf("Meia Social  3     19,99\n");
-    printf("%s", "Camiseta");
-    printf("%5i", 01);
+    printf("%5s", "Camiseta");
+    printf("%5i", 001);
     printf("%5.2f\n", 39.99);
     printf("--------------------------------\n");
     printf("TOTAL: R$ 229,85\n");
