@@ -31,7 +31,7 @@ int main() {
 
     // escopo = um subprograma
     {
-        char letra = 'C'
+        char letra = 'C';
         int variavel = 1;
     }
 
