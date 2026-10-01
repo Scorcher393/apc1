@@ -2,7 +2,7 @@
 
 int main() {
     //entrada
-    int numero
+    int numero;
 
     printf("entre com um numero inteiro: ");
     scanf("%i", &numero);
