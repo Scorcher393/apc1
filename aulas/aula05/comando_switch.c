@@ -1,3 +1,4 @@
+// formatar o codigo - ALT + SHIFT + F
 #include <stdio.h>
 
 int main() {

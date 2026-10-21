@@ -6,12 +6,6 @@ int main() {
     printf("Entre com um numero inteiro de 1 digito: ");
     scanf("%i", &numero);
 
-    /*if (numero = 0, 2, 4, 6, 8) {
-        printf("Par\n");
-    } if (numero = 1, 3 ,5 ,7 ,9) {
-        printf("Impar\n");
-    }*/
-
     switch (numero) {
     case 1: printf("Impar\n"); break;
     case 2: printf("Par\n"); break;
