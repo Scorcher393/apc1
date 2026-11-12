@@ -1,18 +1,18 @@
 #include <stdio.h>
 
 int main() {
-    float notas[2][10];
+    int notas[10][2];
 
-    for(int i=0; i < 2; i++) {
-      for(int j=0; j < 10; j++) {
+    for(int i=0; i < 10; i++) {
+      for(int j=0; j < 2; j++) {
         printf("Informe os valores das notas [%i, %i]: ", i, j);
         scanf("%f", &notas[i][j]);
       }
     }
 
  printf("As notas dos alunos foram: \n");
-    for(int i=0; i < 2; i++) {
-      for(int j=0; j < 10; j++) {
+    for(int i=0; i < 10; i++) {
+      for(int j=0; j < 2; j++) {
         printf("|%5.1f|", notas[i][j]);
       }
       printf("\n");
@@ -32,11 +32,19 @@ int main() {
     numeros[9] = 9.0;
     float soma = 0;
 
-    for(int i = 0; i < 20; i++) {
+    for(int i = 0; i < 10; i++) {
         soma = soma + numeros[i];
     }
 
-    float media = soma / 10;
+    int media = soma / 2;
+
+    printf("Media: \n");
+    for(int i=0; i < 10; i++) {
+      for(int j=0; j < 2; j++) {
+        printf("|%5.1f|", media[i][j]);
+      }
+      printf("\n");
+    }
 
     printf("Media das notas %i\n", media);
 

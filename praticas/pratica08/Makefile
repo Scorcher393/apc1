@@ -1,7 +1,7 @@
 all: limpa compila roda
 
-compila: diagonal_principal.c
-	gcc diagonal_principal.c -o a.out -lm
+compila: boletim.c
+	gcc boletim.c -o a.out -lm
 
 roda: a.out
 	./a.out
